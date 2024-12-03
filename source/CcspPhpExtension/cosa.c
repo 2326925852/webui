@@ -2,7 +2,7 @@
 * @file cosa.c
 * @brief For CCSP Component:  WebUI
 *
-* @description This file gives the function prototypes used for the RDK-Broadband component WebUI
+* @description This file gives the function prototypes used for the RDK-Broadband component WebUI   //zhangyt
 */
 
 /*
