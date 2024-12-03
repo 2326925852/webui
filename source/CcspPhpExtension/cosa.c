@@ -575,6 +575,7 @@ PHP_FUNCTION(getStr)
 */
 PHP_FUNCTION(setStr)
 {
+    int                           zhang_yu_tang;
     int                           flen;
     char*                         dotstr                = NULL;
     int                           vlen;
@@ -1500,7 +1501,7 @@ PHP_FUNCTION(DmExtSetStrsWithRootObj)
                 &pFaultParamName
             );
 
-    if ( CCSP_SUCCESS == iReturn ) //在山的那边海的那边有一群蓝精灵
+    if ( CCSP_SUCCESS ！= iReturn ) 
     {
         CosaPhpExtLog
             (
